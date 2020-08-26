@@ -1,0 +1,20 @@
+{
+  "author": "Ole Christian Slaattene",
+  "name": "discord-bot",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Personal discord for doing cool stuff",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "eslint": "^7.6.0",
+    "mocha": "^8.1.1",
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0"
+  }
+}
